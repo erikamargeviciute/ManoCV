@@ -1,32 +1,106 @@
 body {
     background-color: rgb(198, 192, 192);
-    font-family: 'Merriweather', serif;
     color: #40514E;
-    
+    font-family: 'Merriweather', serif;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #5f6a68;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: monospace;
 }
 
 .contacts table{
     margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+  
 }
 
+.description p {
+    line-height: 2;
+}
+
+.description, .education, .languages, .other {
+    width: 80%;
+    margin: 50px auto 50px;
+    text-align: center;
+    background-color: bisque;
+    padding: 10px;
+    border: 3px solid; 
+    border-radius: 10px;
+}
+
+.description {
+    transition: box-shadow 0.3s ease-in;
+}
+.description:hover {
+    box-shadow: 0px 2px 5px 3px rgb(0, 0, 0); 
+}
+.education:hover {
+    box-shadow: 0px 2px 5px 3px rgb(0, 0, 0); 
+}
+.languages:hover {
+    box-shadow: 0px 2px 5px 3px rgb(0, 0, 0); 
+}
+.experience:hover {
+    box-shadow: 0px 2px 5px 3px rgb(0, 0, 0); 
+}
+.other:hover {
+    box-shadow: 0px 2px 5px 3px rgb(0, 0, 0); 
+}
+
+.education:hover {
+    transition: box-shadow 0.3s ease-in; 
+}
+.languages:hover {
+    transition: box-shadow 0.3s ease-in; 
+}
+.experience:hover {
+    transition: box-shadow 0.3s ease-in; 
+}
+.other:hover {
+    transition: box-shadow 0.3s ease-in; 
+}
+.experience {
+    width: 80%;
+    margin: 50px auto 50px;
+    background-color: bisque;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+}
 
 .education img{
     width: 600px;
+    margin: 40px auto;
+}
+
+.languages table{
+    margin: 30px auto 20px;
 }
 
 .contacts img {
     width: 250px;
 }
 
-.languages table {
-    border: 2px;
-}
 
-
-body {
-    margin-bottom: 200px;
+.experience p {
+    text-align: center;
+    
 }
 
 .list {
-    font-size: larger;
+    font-size:larger;
+    font-weight: bold;
 }
